@@ -1,0 +1,12 @@
+.recommendationsSection {
+  padding-top: 183px;
+}
+.headerText {
+  font-size: 32px;
+  font-weight: 900;
+}
+/* rec product */
+.recProduct {
+  max-width: 507px;
+  width: 100%;
+}

@@ -1,0 +1,43 @@
+.recommendationsSection {
+  padding-top: 183px;
+  padding-bottom: 100px;
+}
+.headerText {
+  font-size: 32px;
+  font-weight: 900;
+}
+/* rec product */
+.recProduct {
+  max-width: 507px;
+  width: 100%;
+  box-shadow: 3px 6px 41px rgb(208 207 207);
+  display: flex;
+  padding: 30px 58px;
+  box-sizing: border-box;
+}
+.name {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.characteristics__item {
+  display: flex;
+}
+.countPeople {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(121, 121, 121, 1);
+}
+.prices {
+  margin-top: 30px;
+}
+.prices__prev {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+.prices__new {
+  font-size: 24px;
+  font-weight: 900;
+  color: rgba(49, 159, 28, 1);
+}

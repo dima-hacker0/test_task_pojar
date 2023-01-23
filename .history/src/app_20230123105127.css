@@ -1,0 +1,31 @@
+.container {
+  max-width: 1580px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.form__input {
+  height: 45px;
+  border: 1px solid rgba(49, 159, 28, 1);
+  padding: 0 24px;
+  box-sizing: border-box;
+  color: rgba(89, 89, 89, 1);
+  font-size: 16px;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: rgba(89, 89, 89, 1);
+  font-size: 16px;
+}
+.form__input::-moz-placeholder {
+  color: rgba(89, 89, 89, 1);
+  font-size: 16px;
+}
+.form__input:-moz-placeholder {
+  color: rgba(89, 89, 89, 1);
+  font-size: 16px;
+}
+.form__input:-ms-input-placeholder {
+  color: rgba(89, 89, 89, 1);
+  font-size: 16px;
+}

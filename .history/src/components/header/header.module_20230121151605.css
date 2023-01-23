@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  padding-top: 29px;
+}
+.logo {
+  max-height: 60px;
+}
+.wrapperSvg {
+  border: #e4e4e4 7px solid;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orderLayoutBlock {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.orderLayoutBlock__text {
+  font-weight: 500;
+  border-bottom: 1px solid black;
+}

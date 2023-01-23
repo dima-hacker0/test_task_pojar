@@ -1,0 +1,20 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  padding-top: 29px;
+}
+.logo {
+  max-height: 60px;
+}
+.wrapper {
+  border: #e4e4e4 7px solid;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

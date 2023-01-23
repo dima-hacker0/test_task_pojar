@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+li {
+  list-style-type: none;
+}
+button {
+  border: 0;
+}
+input,
+textarea {
+  outline: none;
+}

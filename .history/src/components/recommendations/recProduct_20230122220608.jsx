@@ -1,0 +1,30 @@
+import classes from "./recommendations.module.css";
+
+const RecProduct = ({
+  image,
+  name,
+  countPeople,
+  prevPrice,
+  newPrice,
+  characteristics,
+}) => {
+  characteristics = characteristics.map(item, (i) => {
+    <li className={classes.characteristics__item}></li>;
+  });
+  return (
+    <div className={classes.recProduct}>
+      <img src={image} alt="product_image" />
+      <div className={classes.description}>
+        <p className={classes.name}>{name}</p>
+        <p>Дo {countPeople} человек</p>
+        <div className={classes.prices}>
+          <p>{prevPrice}</p>
+          <p>{newPrice}</p>
+        </div>
+        <ul className={classes.characteristics}></ul>
+      </div>
+    </div>
+  );
+};
+
+export default RecProduct;

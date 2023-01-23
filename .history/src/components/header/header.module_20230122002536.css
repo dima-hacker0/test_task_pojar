@@ -1,0 +1,121 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.header {
+  padding-top: 29px;
+}
+/* up */
+.upperHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  max-height: 60px;
+}
+.socialMediaBlock {
+  display: flex;
+  column-gap: 8px;
+}
+.wrapperModelSvg {
+  border: #e4e4e4 7px solid;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orderLayoutBlock {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.orderLayoutBlock__text {
+  font-weight: 500;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding-bottom: 7px;
+}
+.wrapperTelephoneSvg {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: rgb(49, 159, 28) 3px solid;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  outline: solid 5px rgb(228, 228, 228);
+}
+.wrapperTelephoneSvg::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background-color: rgb(49, 159, 28);
+  border-radius: 50%;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.messengers {
+  display: flex;
+  column-gap: 25px;
+}
+.phoneNumber {
+  font-size: 22px;
+  font-weight: 800;
+}
+.blockNumberSocMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 8px;
+}
+.orderCallButton {
+  width: 238px;
+  height: 64px;
+  background-color: rgb(49, 159, 28);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+/* low */
+.lowerHeader {
+  background: linear-gradient(
+    90deg,
+    rgba(246, 246, 246, 0) 1.47%,
+    rgba(163, 210, 155, 0.92) 7.25%,
+    #319f1c 14.68%,
+    #309e1b 50.68%,
+    #319f1c 84.33%,
+    rgba(147, 202, 137, 0.79) 91.68%,
+    rgba(246, 246, 246, 0) 99.05%
+  );
+  height: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1044px;
+  width: 100%;
+}
+.pages__item {
+  color: rgb(255, 255, 255);
+  position: relative;
+  cursor: pointer;
+}
+.pages__item::before {
+  content: "";
+  position: absolute;
+  right: -17px;
+  bottom: -2px;
+  border: 5px solid transparent;
+  border-top: 7px solid rgb(255, 255, 255);
+}

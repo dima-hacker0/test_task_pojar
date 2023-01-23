@@ -1,0 +1,17 @@
+.footer {
+  background-color: rgba(54, 49, 48, 1);
+  padding-top: 50px;
+  padding-bottom: 63px;
+}
+.buttonOrderCall {
+  width: 238px;
+  height: 64px;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background-color: rgba(54, 49, 48, 1);
+}
+.footer__1column {
+  display: flex;
+  flex-direction: column;
+}

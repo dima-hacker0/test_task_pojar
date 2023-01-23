@@ -1,0 +1,9 @@
+.content {
+  display: flex;
+}
+.header {
+  padding-top: 29px;
+}
+.logo {
+  max-height: 60px;
+}

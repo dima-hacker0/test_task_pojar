@@ -1,0 +1,10 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  padding-top: 29px;
+}
+.logo {
+  max-height: 60px;
+}

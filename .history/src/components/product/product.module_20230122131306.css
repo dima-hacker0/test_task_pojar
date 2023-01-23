@@ -1,0 +1,66 @@
+.productBlock {
+  padding-top: 69px;
+}
+.productName {
+  font-size: 38px;
+  font-weight: 900;
+  margin-bottom: 78px;
+}
+.image {
+  display: block;
+  row-gap: 20px;
+  cursor: pointer;
+  max-width: 134px;
+  width: 100%;
+}
+.photosSlider {
+  height: 435px;
+  overflow-y: scroll;
+  direction: rtl;
+  overflow: auto;
+  padding-left: 30px;
+}
+.photosSlider__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  direction: ltr;
+}
+.photosProduct {
+  display: flex;
+  column-gap: 21px;
+}
+.mainPhotoBlock {
+  max-width: 671px;
+  width: 100%;
+  position: relative;
+}
+.mainPhoto {
+  max-width: 671px;
+  width: 100%;
+  display: block;
+}
+.svgWrapper {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(49, 159, 28);
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* scroll */
+.photosSlider::-webkit-scrollbar {
+  width: 8px;
+}
+.photosSlider::-webkit-scrollbar-track {
+  background: rgb(231, 231, 231);
+}
+.photosSlider::-webkit-scrollbar-thumb {
+  background-color: #319f1c;
+  border-radius: 20px; /* закругления плашки */
+  /* border: 3px solid orange; padding вокруг плашки */
+}
+/* */

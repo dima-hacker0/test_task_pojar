@@ -1,0 +1,37 @@
+.productBlock {
+  padding-top: 69px;
+}
+.productName {
+  font-size: 38px;
+  font-weight: 900;
+  margin-bottom: 78px;
+}
+.image {
+  display: block;
+  row-gap: 20px;
+}
+.photosSlider {
+  height: 435px;
+  overflow-y: scroll;
+  direction: rtl;
+  overflow: auto;
+}
+.photosSlider__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  direction: ltr;
+}
+/* scroll */
+.photosSlider__content::-webkit-scrollbar {
+  width: 12px; /* ширина scrollbar */
+}
+.photosSlider__content::-webkit-scrollbar-track {
+  background: orange; /* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: blue; /* цвет плашки */
+  border-radius: 20px; /* закругления плашки */
+  border: 3px solid orange; /* padding вокруг плашки */
+}
+/* */
