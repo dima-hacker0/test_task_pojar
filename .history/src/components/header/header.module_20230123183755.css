@@ -98,7 +98,7 @@
   box-shadow: 0px 5px 5px rgb(169, 172, 168);
 }
 .workingHours {
-  transform: translateY(12px);
+  transform: translateY(-10px);
 }
 /* low */
 .lowerHeader {
@@ -141,20 +141,4 @@
 }
 .navigation {
   width: 100%;
-}
-@media (max-width: 1250px) {
-  .upperHeader {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 30px;
-    row-gap: 20px;
-  }
-  .navigation__list {
-    flex-wrap: wrap;
-    max-width: 800px;
-    column-gap: 30px;
-    justify-content: center;
-    row-gap: 10px;
-  }
 }

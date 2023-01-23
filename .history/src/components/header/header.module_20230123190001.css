@@ -146,15 +146,5 @@
   .upperHeader {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 30px;
-    row-gap: 20px;
-  }
-  .navigation__list {
-    flex-wrap: wrap;
-    max-width: 800px;
-    column-gap: 30px;
-    justify-content: center;
-    row-gap: 10px;
   }
 }

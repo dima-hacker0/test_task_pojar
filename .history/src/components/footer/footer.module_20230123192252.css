@@ -81,8 +81,5 @@
   .footer__content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    row-gap: 30px;
-    column-gap: 30px;
   }
 }

@@ -160,7 +160,6 @@
   }
   .recProduct__info {
     flex-direction: column;
-    align-items: center;
   }
   .buttons {
     flex-direction: column;
@@ -172,25 +171,5 @@
   .buttons__more,
   .buttons__order {
     width: 100%;
-    margin-top: 10px;
-  }
-  .image {
-    width: 200px;
-  }
-  .arrowWrapperLeft,
-  .arrowWrapperRight {
-    width: 30px;
-    height: 30px;
-  }
-}
-@media (max-width: 450px) {
-  .recProduct {
-    width: 230px;
-  }
-  .slider__content {
-    width: 230px;
-  }
-  .slider {
-    column-gap: 0px;
   }
 }

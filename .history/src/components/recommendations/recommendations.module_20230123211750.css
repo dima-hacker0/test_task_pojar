@@ -179,18 +179,5 @@
   }
   .arrowWrapperLeft,
   .arrowWrapperRight {
-    width: 30px;
-    height: 30px;
-  }
-}
-@media (max-width: 450px) {
-  .recProduct {
-    width: 230px;
-  }
-  .slider__content {
-    width: 230px;
-  }
-  .slider {
-    column-gap: 0px;
   }
 }

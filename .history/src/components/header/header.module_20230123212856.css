@@ -153,8 +153,5 @@
   .navigation__list {
     flex-wrap: wrap;
     max-width: 800px;
-    column-gap: 30px;
-    justify-content: center;
-    row-gap: 10px;
   }
 }

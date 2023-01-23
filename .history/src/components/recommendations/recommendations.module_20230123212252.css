@@ -185,10 +185,10 @@
 }
 @media (max-width: 450px) {
   .recProduct {
-    width: 230px;
+    width: 240px;
   }
   .slider__content {
-    width: 230px;
+    width: 240px;
   }
   .slider {
     column-gap: 0px;

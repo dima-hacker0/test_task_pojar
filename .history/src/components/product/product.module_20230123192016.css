@@ -195,30 +195,3 @@
     row-gap: 30px;
   }
 }
-@media (max-width: 860px) {
-  .photosProduct {
-    flex-direction: column-reverse;
-    align-items: center;
-    row-gap: 20px;
-    padding: 0 10px;
-    box-sizing: border-box;
-  }
-  .photosSlider__content {
-    flex-direction: row;
-    width: 100%;
-    column-gap: 10px;
-    margin: 0 auto;
-    direction: inherit;
-    align-items: center;
-  }
-  .photosSlider {
-    height: inherit;
-    padding-left: inherit;
-    max-width: 671px;
-    padding-bottom: 10px;
-    width: 90vw;
-  }
-  .image {
-    width: 134px;
-  }
-}
